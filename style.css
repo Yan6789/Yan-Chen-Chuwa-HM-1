@@ -1,0 +1,72 @@
+
+th,.button,.dropdown {
+  background-color: #EBD8C3;
+}
+
+table {
+  margin-top: 30px;
+  padding:20px;
+  flex:auto;
+  background-color:  #F7E9D7;
+  border-style: solid;
+  border: 5px solid white;
+  width: 800px;
+  border-collapse:collapse;
+}
+
+th, td {
+
+  border: 1px solid white;
+  text-align: center;
+}
+
+.oddRow {
+  background-color: #FFF6EA;
+}
+
+.searchInput{
+  padding: 20px;
+  border: 3px solid #DFDFDE;
+  width: 80%;
+ font-size: 20px;
+  height: 10px;
+  border-radius: 60px;
+}
+
+.button {
+margin: 10px;
+width: 100px;
+font-size: 20px;
+border-style: none;
+border-radius: 7px;
+
+}
+.button:hover{
+  background-color: #FF8C32
+}
+
+
+@media(max-width:768px) {
+
+  .tableContainer {
+      display: flex;
+  }
+}
+.listContainer{
+padding: 10px, 100px;
+display: flex;
+width: 100%;
+justify-content: flex-start;
+
+}
+.unorderedList{
+  width:30%
+}
+.orderedList{
+  width:30%
+}
+.dropdown  {
+  width: 150px;
+  font-size: 18px;
+  padding: 5px;
+}
