@@ -11,7 +11,6 @@ body {
 table {
   margin-top: 30px;
   padding: 20px;
-  flex: auto;
   background-color: #f7e9d7;
   width: 70%;
   border-collapse: collapse;
@@ -48,21 +47,20 @@ td {
   background-color: #ff8c32;
 }
 
-@media (max-width: 768px) {
-  .tableContainer {
-    display: flex;
-  }
-}
-.listContainer {
-  display: flex;
-  width: 100%;
-}
+
+
 .unorderedList {
   width: 30%;
 }
 .orderedList {
   width: 30%;
 }
+@media (min-width: 768px) {
+  .listContainer {
+    display: flex;
+
+  }
+
 .dropdown {
   width: 150px;
   font-size: 18px;
