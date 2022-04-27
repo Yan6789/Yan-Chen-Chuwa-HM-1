@@ -53,11 +53,8 @@ border-radius: 7px;
   }
 }
 .listContainer{
-padding: 10px, 100px;
 display: flex;
 width: 100%;
-justify-content: flex-start;
-
 }
 .unorderedList{
   width:30%
