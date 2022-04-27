@@ -1,68 +1,69 @@
+th,
+.button,
+.dropdown {
+  background-color: #ebd8c3;
+}
 
-th,.button,.dropdown {
-  background-color: #EBD8C3;
+body {
+  margin: 40px;
 }
 
 table {
   margin-top: 30px;
-  padding:20px;
-  flex:auto;
-  background-color:  #F7E9D7;
-  border-style: solid;
-  border: 5px solid white;
-  width: 800px;
-  border-collapse:collapse;
+  padding: 20px;
+  flex: auto;
+  background-color: #f7e9d7;
+  width: 70%;
+  border-collapse: collapse;
 }
 
-th, td {
-
+th,
+td {
   border: 1px solid white;
   text-align: center;
 }
 
 .oddRow {
-  background-color: #FFF6EA;
+  background-color: #fff6ea;
 }
 
-.searchInput{
+.searchInput {
   padding: 20px;
-  border: 3px solid #DFDFDE;
+  border: 3px solid #dfdfde;
   width: 80%;
- font-size: 20px;
+  font-size: 20px;
   height: 10px;
   border-radius: 60px;
+  box-shadow: 5px 5px 5px rgba(113, 112, 112, 0.155);
 }
 
 .button {
-margin: 10px;
-width: 100px;
-font-size: 20px;
-border-style: none;
-border-radius: 7px;
-
+  margin: 20px;
+  width: 100px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 7px;
 }
-.button:hover{
-  background-color: #FF8C32
+.button:hover {
+  background-color: #ff8c32;
 }
 
-
-@media(max-width:768px) {
-
+@media (max-width: 768px) {
   .tableContainer {
-      display: flex;
+    display: flex;
   }
 }
-.listContainer{
-display: flex;
-width: 100%;
+.listContainer {
+  display: flex;
+  width: 100%;
 }
-.unorderedList{
-  width:30%
+.unorderedList {
+  width: 30%;
 }
-.orderedList{
-  width:30%
+.orderedList {
+  width: 30%;
 }
-.dropdown  {
+.dropdown {
   width: 150px;
   font-size: 18px;
   padding: 5px;
